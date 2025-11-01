@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import './LoadingScreen.css';
 
+
 const LoadingScreen = ({ onComplete }) => {
   const logoRef = useRef(null);
   const screenRef = useRef(null);
